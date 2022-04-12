@@ -71,6 +71,43 @@
       <!-- Modal -->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+          <p class="text">Оставьте свои данные, мы вам перезвоним</p>
+          <form class="modal-form">
+            <div class="modal-field">
+              <label for="name" class="modal-label">Имя</label>
+              <input type="text" name="name" id="name" class="modal-input" />
+            </div>
+            <div class="modal-field">
+              <label for="tel" class="modal-label">Телефон</label>
+              <input type="tel" name="tel" id="tel" class="modal-input" />
+            </div>
+            <div class="modal-field">
+              <label for="email" class="modal-label">Почта</label>
+              <input type="email" name="email" id="email" class="modal-input" />
+            </div>
+            <div class="modal-field">
+              <label for="commentary" class="modal-label">Комментарий</label>
+              <textarea
+                name="commentary"
+                id="commentary"
+                class="modal-textarea"
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
+            <div class="policy-field">
+              <input
+                type="checkbox"
+                name="policy"
+                id="policy"
+                class="policy-checkbox"
+              />
+              <label for="policy" class="policy-label"
+                >Соглашаюсь с рассылкой и принимаю
+                <a href="" class="policy-link">Условия договора</a>
+              </label>
+            </div>
+            <button type="submit" class="btn-submit-modal">Отправить</button>
+          </form>
           <button class="btn-close" data-modal-close></button>
         </div>
       </div>
@@ -460,6 +497,23 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="subscription">
+          <p class="text">Подпишитесь на рассылку</p>
+          <form class="sub-form">
+            <div class="form-field">
+              <label for="email" class="form-label">E-mail</label>
+              <input
+                class="form-input"
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="email"
+              />
+            </div>
+            <button type="submit" class="btn-submit">Подписаться</button>
+          </form>
         </div>
       </div>
     </footer>
