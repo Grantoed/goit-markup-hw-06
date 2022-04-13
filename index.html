@@ -76,14 +76,23 @@
             <div class="modal-field">
               <label for="name" class="modal-label">Имя</label>
               <input type="text" name="name" id="name" class="modal-input" />
+              <svg class="icon">
+                <use href="./images/icons.svg#icon-modal-name"></use>
+              </svg>
             </div>
             <div class="modal-field">
               <label for="tel" class="modal-label">Телефон</label>
               <input type="tel" name="tel" id="tel" class="modal-input" />
+              <svg class="icon">
+                <use href="./images/icons.svg#icon-modal-tel"></use>
+              </svg>
             </div>
             <div class="modal-field">
               <label for="email" class="modal-label">Почта</label>
               <input type="email" name="email" id="email" class="modal-input" />
+              <svg class="icon">
+                <use href="./images/icons.svg#icon-modal-email"></use>
+              </svg>
             </div>
             <div class="modal-field">
               <label for="commentary" class="modal-label">Комментарий</label>
@@ -101,14 +110,23 @@
                 id="policy"
                 class="policy-checkbox"
               />
-              <label for="policy" class="policy-label"
-                >Соглашаюсь с рассылкой и принимаю
-                <a href="" class="policy-link">Условия договора</a>
+              <label for="policy" class="policy-label">
+                <span class="icon-checkbox">
+                  <svg class="checkmark">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                Соглашаюсь с рассылкой и принимаю
+                <a href="" class="policy-link"> Условия договора</a>
               </label>
             </div>
             <button type="submit" class="btn-submit-modal">Отправить</button>
           </form>
-          <button class="btn-close" data-modal-close></button>
+          <button class="btn-close" data-modal-close>
+            <svg class="icon">
+              <use href="./images/icons.svg#icon-modal-close"></use>
+            </svg>
+          </button>
         </div>
       </div>
 
